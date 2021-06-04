@@ -22,26 +22,6 @@ namespace ACM.BL
 
         public DateTimeOffset? OrderDate { get; set; }
 
-
-        /// <summary>
-        /// Retrieve one customer.
-        /// </summary>
-        /// <param name="orderId"></param>
-        /// <returns></returns>
-        public Order Retrieve(int orderId)
-        {
-            return new Order();
-        }
-
-        /// <summary>
-        /// Saves the current customer.
-        /// </summary>
-        /// <returns></returns>
-        public bool Save()
-        {
-            return true;
-        }
-
         /// <summary>
         /// Validates the customer data.
         /// </summary>
